@@ -1,4 +1,4 @@
-# 🇮🇹 Italy Schengen Visa Appointment Notifier
+#  Italy Schengen Visa Appointment Notifier
 
 A Python-based automation tool that monitors Italy Schengen Visa appointment availability for Istanbul locations and sends real-time mobile notifications via the Pushbullet API whenever a slot becomes available.
 
