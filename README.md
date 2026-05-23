@@ -1,28 +1,26 @@
-# İtalya Schengen Vize Randevu Bildirimi
+# 🇮🇹 Italy Schengen Visa Appointment Notifier
 
-Bu Python projesi, Schengen Vize başvuruları için İtalya Konsolosluğu'ndan İstanbul'daki randevu bilgilerini çekmek ve bu bilgiler değiştiğinde telefonunuza bildirim göndermek için Pushbullet API'sini kullanır.
+A Python-based automation tool that monitors Italy Schengen Visa appointment availability for Istanbul locations and sends real-time mobile notifications via the Pushbullet API whenever a slot becomes available.
 
-## Proje Açıklaması
+## 📝 Project Description
 
-Bu proje, Schengen Vize başvuruları için İtalya'nın İstanbul konsolosluğundaki "Turistlik Vize" ve "Standart Hizmet" randevu durumlarını kontrol eder. Eğer bir randevu tarihi mevcutsa, bir telefon bildirim gönderilir. Bildirimler, Pushbullet API'si aracılığıyla telefonunuza iletilir.
+Securing a visa appointment can be challenging due to high demand. This project automatically tracks the availability of "Tourist Visa" and "Standard Service" appointment slots at the Italian Consulate in Istanbul. The moment an active appointment date is detected, it instantly triggers a push notification to your mobile device using Pushbullet.
 
-## Özellikler
+## 🚀 Features
 
-- İtalya konsolosluğunda İstanbul'daki "Turistlik Vize" ve "Standart Hizmet" için randevu tarihi kontrolü yapar.
-- Eğer randevu tarihi varsa, Pushbullet üzerinden bildirim gönderilir.
-- Pushbullet API ile telefon bildirimleri gönderebilirsiniz.
+* **Automated Monitoring:** Continually checks appointment dates for "Tourist Visa" and "Standard Service" categories in Istanbul.
+* **Instant Alerts:** Sends immediate mobile push notifications via the Pushbullet API as soon as an opening is detected.
+* **Lightweight & Efficient:** Utilizes clean HTTP requests to fetch status updates without heavy overhead.
 
-## Gereksinimler
+## 🛠️ Prerequisites
 
-- Python 3.x
-- `requests` kütüphanesi
-- `pushbullet.py` kütüphanesi
+* Python 3.x
+* `requests` library
+* `pushbullet.py` library
 
-## Kurulum
+## 🔧 Installation & Setup
 
-1. **Python ve gerekli kütüphaneleri yükleyin**:
-
-   Python 3.x yüklü olmalıdır. Aşağıdaki komutları kullanarak gerekli kütüphaneleri yükleyebilirsiniz:
-
+1. **Install Dependencies:**
+   Ensure you have Python 3.x installed. Run the following command to install the required libraries:
    ```bash
    pip install requests pushbullet.py
